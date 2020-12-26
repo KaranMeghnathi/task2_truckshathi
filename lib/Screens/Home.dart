@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:task_truckshathi/Screens/Feeds.dart';
 import 'package:task_truckshathi/Screens/ProfilePage.dart';
+import 'package:task_truckshathi/Screens/Task2.dart';
 
 class HomePage extends StatefulWidget{
 
@@ -23,10 +24,8 @@ class HomeState extends State<HomePage>{
     ),
     //Profile
     ProfilePage(),
-    Text(
-      'Search Screen',
-      style: optionStyle,
-    ),
+    //Task2
+    Task2(),
   ];
 
   int _selectedIndex = 0;
@@ -58,7 +57,7 @@ class HomeState extends State<HomePage>{
             BottomNavigationBarItem(icon: Icon(Icons.home,),label: "",backgroundColor: Colors.white60,),
             BottomNavigationBarItem(icon: Icon(Icons.add_box_outlined),label: "",backgroundColor: Colors.white60),
             BottomNavigationBarItem(icon: Icon(Icons.person_rounded),label: "",backgroundColor: Colors.white60),
-            BottomNavigationBarItem(icon: Icon(Icons.search),label: "",backgroundColor: Colors.white60),
+            BottomNavigationBarItem(icon: Icon(Icons.search),label: "Task2",backgroundColor: Colors.white60),
           ],
           currentIndex: _selectedIndex,
           //selectedItemColor: Colors.blue,

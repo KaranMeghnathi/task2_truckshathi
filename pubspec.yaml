@@ -30,6 +30,9 @@ dependencies:
   cupertino_icons: ^1.0.0
   getwidget: ^1.2.2
   font_awesome_flutter: ^8.10.0
+  http: ^0.12.2
+  dio: ^3.0.10
+  url_launcher: ^5.7.8
 
 dev_dependencies:
   flutter_test:
